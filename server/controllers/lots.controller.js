@@ -1,7 +1,7 @@
 const { response } = require('express');
 const yelp = require('yelp-fusion');
 
-const apiKey = '<API KEY HERE>';
+const apiKey = 'API KEY HERE';
 
 const client = yelp.client(apiKey);
 
